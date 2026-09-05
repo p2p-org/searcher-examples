@@ -1,4 +1,4 @@
-# syntax=docker/dockerfile:1.4.0
+# syntax=docker/dockerfile:1.27.0
 FROM rust:1.66.0-slim-bullseye as builder
 
 RUN set -x \
